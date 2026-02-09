@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: #b95b03;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #111;
+}
+
+h1 {
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vw;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.about p {
+    max-width: 900px;
+    font-size: 1.1rem;
+    color: #e6e6e6;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    padding: 0 2vw;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a90e2;
+}
