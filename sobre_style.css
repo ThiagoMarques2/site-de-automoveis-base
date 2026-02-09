@@ -7,8 +7,8 @@
 
 /* Cabeçalho */
 header {
-    background: #ffffff;
-    color: white;
+    background: #b95b03;
+    color: rgb(0, 0, 0);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -45,4 +45,19 @@ h1 {
     padding: 0 2vw;
     font-weight: 300;
     letter-spacing: 0.3px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a90e2;
 }
